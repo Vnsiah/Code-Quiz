@@ -1,9 +1,10 @@
 let choicesE1 = document.querySelector("#choices")
-var next = document.querySelector(".next");
-var prev = document.querySelector(".prev");
-var startQuizButton = document.querySelector("#start");
-var startScreen = document.querySelector("#start-screen");
-var questionsDisplay = document.querySelector("#questions");
+let next = document.querySelector(".next");
+let prev = document.querySelector(".prev");
+let startQuizButton = document.querySelector("#start");
+let startScreen = document.querySelector("#start-screen");
+let questionsDisplay = document.querySelector("#questions");
+let endtScreen = document.querySelector("#end-screen");
 
 let index = 0
 let currentQuestions;
